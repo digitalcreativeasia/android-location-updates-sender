@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Location Update</string>
+    <string name="tracking">Tracking &#x2713;</string>
+    <string name="not_tracking">Not tracking &#x2718;</string>
+    <string name="connecting">Connecting &#8230;</string>
+    <string name="status">status</string>
 </resources>

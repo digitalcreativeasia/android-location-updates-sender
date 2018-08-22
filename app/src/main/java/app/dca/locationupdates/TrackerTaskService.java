@@ -15,7 +15,7 @@ public class TrackerTaskService extends GcmTaskService {
     public int onRunTask(TaskParams taskParams) {
         Log.i(TAG, "onRunTask");
         //Todo: remove null
-        Intent start = new Intent(this, null);
+        Intent start = new Intent(this, MainActivity.class);
         start.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(start);
         return GcmNetworkManager.RESULT_SUCCESS;
